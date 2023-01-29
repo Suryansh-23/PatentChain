@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap");
+
+:root {
+    font-family: "Montserrat", sans-serif !important;
+}
+
+.montserrat {
+    font-family: "Montserrat", sans-serif !important;
+}
+
+::-webkit-scrollbar {
+    width: 0.75rem;
+    cursor: default;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--surface-c);
+    border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb {
+    width: 0.5rem;
+    border-radius: 3rem;
+    border: 2.5px solid var(--surface-e);
+    cursor: grab;
+    background-clip: content-box;
+    background: linear-gradient(180deg, rgba(44, 104, 196, 1) 0%, #171941 100%);
+    background: rgb(44, 104, 196);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--primary-color);
+}
+
+html {
+    font-size: 1rem;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #171941;
+    /* secondary- #1F2371*/
+    font-family: var(--font-family);
+    font-weight: normal;
+    color: var(--text-color);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    text-decoration: none !important;
+    color: white !important;
+}
+
+#root {
+    overflow: hidden;
+}
+
+.install-bg {
+    height: 500px;
+    background-image: #99ffec;
+    background-image: radial-gradient(
+            at 0% 75%,
+            hsla(351, 93%, 73%, 1) 0,
+            transparent 48%
+        ),
+        radial-gradient(at 21% 2%, hsla(50, 95%, 77%, 1) 0, transparent 54%),
+        radial-gradient(at 95% 15%, hsla(233, 95%, 75%, 1) 0, transparent 43%),
+        radial-gradient(at 66% 59%, hsla(9, 63%, 79%, 1) 0, transparent 44%);
+}
+
+.shine-border {
+    border: 0.1rem solid rgba(42, 100, 175, 0.3) !important;
+}
+
+.p-card.p-component.navbar {
+    padding: 0;
+    /* border: 0.625rem solid rgba(226, 232, 240, 0.3); */
+    font-family: "Montserrat", sans-serif !important;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.p-card-body,
+.p-card-content {
+    padding: 0 !important;
+}
+
+.translate-icn {
+    transform: translateY(7.5%);
+}
+
+.blur {
+    backdrop-filter: blur(16px) saturate(180%) !important;
+    -webkit-backdrop-filter: blur(16px) saturate(180%) !important;
+    background-color: rgba(17, 25, 40, 0.75) !important;
+    /* border: 1px solid rgba(255, 255, 255, 0.125); */
+}
+
+.blur2 {
+    backdrop-filter: blur(16px) saturate(180%) !important;
+    -webkit-backdrop-filter: blur(16px) saturate(180%) !important;
+    background-color: rgba(17, 25, 40, 0.1) !important;
+    /* border: 1px solid rgba(255, 255, 255, 0.125); */
+}
+
+.border-change {
+    border-radius: 1.5rem !important;
+}
+
+.hover:hover {
+    background: rgba(147, 197, 253, 0.04);
+}
+
+.card {
+    background-color: #0069e9;
+    background-image: linear-gradient(332deg, #004292 0%, #4d7ea7 100%);
+    backface-visibility: 0.5;
+}
+
+.p-dialog-header {
+    border-top-left-radius: 1.5rem !important;
+    border-top-right-radius: 1.5rem !important;
+    background: transparent !important;
+}
+
+.p-dialog-content {
+    border-bottom-left-radius: 1.5rem !important;
+    border-bottom-right-radius: 1.5rem !important;
+    background: transparent !important;
+}
+
+.full-opacity {
+    opacity: 1 !important;
+}
+
+.fit {
+    object-fit: cover;
+}
+
