@@ -5,7 +5,8 @@ import { Form, DataDialog } from "./Form";
 import { useEffect, useState } from "react";
 import useStore from "./State";
 
-import LicenseToken from "../artifacts/contracts/LicenseToken.sol/LicenseToken.json";
+import LicenseToken from "../artifacts/contracts/LicenseToken.sol/LicenseToken.json?raw";
+LicenseToken = JSON.parse(LicenseToken);
 import { ethers } from "ethers";
 import { CONTRACT_ADDRESS } from "../../env";
 import { getLicenseNum } from "./generateLicense";
