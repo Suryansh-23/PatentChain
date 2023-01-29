@@ -102,7 +102,7 @@ const Dashboard = () => {
 const EntryDialog = ({ visible, setVisible }) => {
     return (
         <Dialog
-            header="New Patent Application 🚀🚀🚀"
+            header="New Patent Application 🚀"
             className="blur2 border-change shine-border"
             visible={visible}
             maximizable

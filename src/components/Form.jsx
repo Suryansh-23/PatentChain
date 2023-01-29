@@ -192,7 +192,7 @@ const Form = () => {
                 </div>*/}
             <div className="mt-4">
                 <Button
-                    label="Send for Review"
+                    label="Apply"
                     icon="pi pi-bolt"
                     className="w-full"
                     onClick={async () => {
