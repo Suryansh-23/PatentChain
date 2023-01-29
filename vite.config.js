@@ -1,3 +1,4 @@
+import json from "@rollup/plugin-json";
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
@@ -6,6 +7,14 @@ export default defineConfig({
     assetsInclude: ["**/*.json"],
     plugins: [react()],
     build: {
+        rollupOptions: {
+            plugins: [
+                // ... other rollup plugins
+                json({
+                    compact: true,
+                }),
+            ],
+        },
         minify: "esbuild",
         target: "esnext",
     },

@@ -2,8 +2,8 @@
 import { useEffect, useState } from "react";
 
 import { ethers } from "ethers";
-import LicenseToken from "../artifacts/contracts/LicenseToken.sol/LicenseToken.json?raw";
-LicenseToken = JSON.parse(LicenseToken);
+import LicenseToken from "../artifacts/contracts/LicenseToken.sol/LicenseToken.json";
+// LicenseToken = JSON.parse(LicenseToken);
 import { CONTRACT_ADDRESS } from "../../env";
 
 const contractAddress = CONTRACT_ADDRESS;

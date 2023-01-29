@@ -1,6 +1,6 @@
 import { ethers } from "ethers";
 import { CONTRACT_ADDRESS } from "../../env";
-import LicenseToken from "../artifacts/contracts/LicenseToken.sol/LicenseToken.json?raw";
+import LicenseToken from "../artifacts/contracts/LicenseToken.sol/LicenseToken.json";
 LicenseToken = JSON.parse(LicenseToken);
 // const fs = require("fs");
 import { NFTStorage, File } from "nft.storage";
