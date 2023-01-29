@@ -6,7 +6,7 @@ import "./App.css";
 import detectEthereumProvider from "@metamask/detect-provider";
 import Install from "./components/Install";
 import Home from "./components/Home";
-import NavBar from "./components/Navbar";
+import NavBar from "./components/NavBar";
 import Dashboard from "./components/Dashboard";
 
 const provider = await detectEthereumProvider();
