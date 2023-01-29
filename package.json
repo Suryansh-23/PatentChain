@@ -19,6 +19,8 @@
         "@mui/system": "^5.8.6",
         "@mui/utils": "^5.8.6",
         "@nomicfoundation/hardhat-toolbox": "^2.0.1",
+        "@rollup/plugin-json": "^6.0.0",
+        "@rollup/plugin-node-resolve": "^15.0.1",
         "@tabler/icons": "^1.72.0",
         "apexcharts": "^3.35.3",
         "formik": "^2.2.9",
@@ -37,6 +39,7 @@
         "react-dom": "^18.2.0",
         "react-perfect-scrollbar": "^1.5.8",
         "react-scripts": "^5.0.1",
+        "rollup-plugin-json": "^4.0.0",
         "yup": "^0.32.11",
         "zustand": "^4.3.2"
     },
@@ -71,4 +74,3 @@
         "vite": "^4.0.0"
     }
 }
-

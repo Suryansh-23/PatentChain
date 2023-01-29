@@ -27,29 +27,29 @@ const Dashboard = () => {
     const [dataPane, setDataPane] = useState(false);
     const [data, setData] = useState({});
 
-    useEffect(() => {
-        const connection = contract.connect(signer);
-        const addr = connection.address;
-        // const addr = "0xa513E6E4b8f2a923D98304ec87F64353C4D5C853";
-        // console.log();
-        contract.count().then(async (e) => {
-            // console.log("count: ", e);
-            let n = parseInt(e);
-            updateMinted(n);
-            let lnum, res;
-            // console.log(lnum);
-            for (let i = 0; i < n; i++) {
-                lnum = await getLicenseNum(minted);
+    // useEffect(() => {
+    //     const connection = contract.connect(signer);
+    //     const addr = connection.address;
+    //     // const addr = "0xa513E6E4b8f2a923D98304ec87F64353C4D5C853";
+    //     // console.log();
+    //     contract.count().then(async (e) => {
+    //         // console.log("count: ", e);
+    //         let n = parseInt(e);
+    //         updateMinted(n);
+    //         let lnum, res;
+    //         // console.log(lnum);
+    //         for (let i = 0; i < n; i++) {
+    //             lnum = await getLicenseNum(minted);
 
-                res = await contract.returnToken(lnum);
+    //             res = await contract.returnToken(lnum);
 
-                await res.wait();
-                console.log("Res", res);
-                // insert()
-            }
-        });
-        // console.log("count", result);
-    }, [updateMinted]);
+    //             await res.wait();
+    //             console.log("Res", res);
+    //             // insert()
+    //         }
+    //     });
+    //     // console.log("count", result);
+    // }, [updateMinted]);
 
     // useEffect(() => {}, [setLicenses]);
 
