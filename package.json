@@ -21,14 +21,11 @@
         "@nomicfoundation/hardhat-toolbox": "^2.0.1",
         "@tabler/icons": "^1.72.0",
         "apexcharts": "^3.35.3",
-        "canvas": "^2.11.0",
         "formik": "^2.2.9",
         "framer-motion": "^6.3.16",
         "hardhat": "^2.12.6",
         "image-to-blob": "^0.2.0",
         "material-ui-popup-state": "^4.0.1",
-        "mime": "^3.0.0",
-        "moralis": "^2.12.0",
         "nft.storage": "^7.0.0",
         "primeflex": "^3.3.0",
         "primeicons": "^6.0.1",
@@ -39,11 +36,7 @@
         "react-device-detect": "^2.2.2",
         "react-dom": "^18.2.0",
         "react-perfect-scrollbar": "^1.5.8",
-        "react-redux": "^8.0.2",
-        "react-router": "6.3.0",
-        "react-router-dom": "^6.8.0",
         "react-scripts": "^5.0.1",
-        "redux": "^4.2.0",
         "yup": "^0.32.11",
         "zustand": "^4.3.2"
     },
@@ -78,3 +71,4 @@
         "vite": "^4.0.0"
     }
 }
+
