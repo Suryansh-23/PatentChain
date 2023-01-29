@@ -1,16 +1,11 @@
-import json from "rollup-plugin-json";
-import resolve from "rollup-plugin-node-resolve";
+import json from "@rollup/plugin-json";
 
 export default {
-    input: "./src/index.js",
-    output: {
-        file: "./lib/index.js",
-        format: "umd",
-    },
+    // ... other configs
     plugins: [
-        json(),
-        resolve({
-            extensions: [".js", ".json"],
+        // ... other rollup plugins
+        json({
+            compact: true,
         }),
     ],
 };
