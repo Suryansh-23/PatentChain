@@ -1,4 +1,4 @@
-import WalletBalance from "./WalletBalance";
+// import WalletBalance from "./WalletBalance";
 import { useEffect, useState } from "react";
 
 import { ethers } from "ethers";

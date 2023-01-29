@@ -30,7 +30,7 @@ const NavBarCommonContent = () => {
             </div>
 
             <div className="flex align-items-center column-gap-3 ml-auto">
-                <div className="flex py-1 hover border-round-2xl align-items-center">
+                {/* <div className="flex py-1 hover border-round-2xl align-items-center">
                     <h1 className="text-3xl px-2 my-2 shine-text font-bold">
                         About Us
                     </h1>
@@ -46,7 +46,7 @@ const NavBarCommonContent = () => {
                     <h1 className="text-3xl px-2 my-2 shine-text font-bold">
                         Contact Us
                     </h1>
-                </div>
+                </div> */}
 
                 <div className="flex align-items-center">
                     <h1 className="text-3xl px-2 my-2 shine-text font-bold"></h1>
